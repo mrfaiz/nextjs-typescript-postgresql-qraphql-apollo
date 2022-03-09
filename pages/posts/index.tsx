@@ -1,12 +1,9 @@
 import { InferGetStaticPropsType } from "next";
-import Head from "next/head";
 import React from "react";
-import Container from "../../components/Container";
+import Container from "../../components/Container/container";
 import AddPost from "../../components/posts/AddPost";
 import Post from "../../components/posts/Post";
 import { IPost } from "../../types/posts";
-
-
 
 const POST_API: string = "https://jsonplaceholder.typicode.com/posts";
 export default function Posts({

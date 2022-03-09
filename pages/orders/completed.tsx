@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Container from "../../components/Container";
+import Container from "../../components/Container/container";
 
 const title: string = "Completed Orders";
 const CompletedOrders: NextPage = () => {

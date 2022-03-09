@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Container from "../../components/Container";
+import Container from "../../components/Container/container";
 
 // https://nextjs.org/docs/routing/dynamic-routes
 
