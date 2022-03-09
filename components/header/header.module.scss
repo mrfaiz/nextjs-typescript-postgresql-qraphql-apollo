@@ -1,0 +1,33 @@
+.HeaderContainer {
+    display: flex;
+    background: #00022e;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #fc86aa;
+}
+
+.TitleContainer {
+    margin: auto;
+}
+
+.HeaderContainer{
+  display: flex;
+  background: #00022e;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #fc86aa;
+}
+.TitleContainer {
+  margin: auto;
+}
+
+.IconContainer {
+  padding: 10px;
+  cursor: pointer;
+
+  & svg {
+    height: 30px;
+  }
+}

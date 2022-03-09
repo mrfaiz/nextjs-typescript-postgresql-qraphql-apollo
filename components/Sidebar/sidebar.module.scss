@@ -1,0 +1,15 @@
+
+.SidebarClosed {
+    background: #d8dcd6;
+    width: 0vw;
+    transition: width 0.5s;
+    overflow: hidden;
+}
+
+.SidebarOpened {
+    background: #d8dcd6;
+    width: 20vw;
+    transition: width 0.5s;
+    overflow: hidden;
+}
+

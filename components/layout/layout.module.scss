@@ -1,0 +1,25 @@
+.Container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #000133;
+}
+
+.Content {
+    display: flex;
+    flex: 1;
+}
+
+.PageContainer {
+    padding: 20px;
+    width: 80vw;
+}
+
+.IconContainer {
+    padding: 10px;
+    cursor: pointer;
+    & svg {
+        height: 30px;
+      }
+}
